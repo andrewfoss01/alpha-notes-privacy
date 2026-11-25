@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alpha Notes Privacy Policy</title>
+<style>
+:root { color-scheme: light dark; --back: #fff; --text: #1c2730; --quiet: #54626d; --link: #0f6b64; }
+@media (prefers-color-scheme: dark) { :root { --back: #14202a; --text: #e4eaee; --quiet: #a6b4be; --link: #7fd1c6; } }
+body { margin: 0; background: var(--back); color: var(--text); font: 17px/1.6 system-ui, sans-serif; }
+main { max-width: 42rem; margin: 0 auto; padding: 2.5rem 1rem 4rem; overflow-wrap: break-word; }
+h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 1rem; }
+h2 { font-size: 1.2rem; line-height: 1.3; margin: 2.2rem 0 .5rem; }
+p { margin: 0 0 1rem; }
+.meta { color: var(--quiet); }
+a { color: var(--link); }
+</style>
+</head>
+<body>
+<main>
+<h1>Alpha Notes — Privacy Policy</h1>
+<p class="meta">
+Publisher: Andrew Foss<br>Contact: <a href="mailto:andrewfoss01@gmail.com">andrewfoss01@gmail.com</a><br>Effective date: November 25, 2026
+</p>
+<p>This policy covers the Alpha Notes Android app (com.andrewfoss.alphanotes). The app is in preparation for Google Play; sections about Google Play purchases apply once purchases are enabled.</p>
+<h2>Your field work</h2>
+<p>Alpha Notes stores projects, notes, sketches, photos, imported survey files, names, optional client details, settings and coordinate results on your Android device. The app has no online user account or automatic project upload. Coordinate conversions run locally. Files leave your device when you choose to share or copy them; people receiving a file can read its contents. Alpha Notes contains no ads, and the publisher does not sell your information.</p>
+<h2>Mapping and user-started recording</h2>
+<p>GPS observations, timestamps, reported accuracy, device height, point codes and recovery journals are stored on your device. Automatic recording starts only when you choose it while Alpha Notes is visible. A location foreground service with an ongoing Stop notification allows recording to continue while the screen is locked or another app is open. It never restarts automatically after reboot or force-stop. Project deletion stops its recording and removes its recovery rows. Georeferenced PDFs are parsed and rendered locally. Coordinates and capture journals are excluded from diagnostics. Google backgrounds, when enabled, can send displayed map/location information to Google as described below.</p>
+<h2>Camera and location</h2>
+<p>Optional camera and foreground location access support photo capture, requested position tagging, maps and weather. Compass readings support photo directions when available. These permissions can be declined or revoked in Android settings. Other features remain available. The app does not request background location.</p>
+<h2>Maps and weather</h2>
+<p>When Google Maps is configured and used, the Google Maps SDK communicates with Google. Its automatic data includes device and SDK request metadata, a pseudonymous SDK identifier, network information such as IP address, and crash metrics and stack traces. Map interaction events and location-related information depend on which features are used. Before saving a map image, the app also makes a short connection check to Google. This does not upload field-book projects or photographs to Google Maps. Google&#39;s handling of its service data is described at <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>.</p>
+<p>Requested weather lookups send the app&#39;s name, coordinates rounded to two decimal places (about 1 km) and normal network information to MET Norway at <a href="https://api.met.no/">https://api.met.no/</a>. Weather is an estimate. Its data licence is CC BY 4.0: <a href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a>.</p>
+<h2>Trial and purchase verification</h2>
+<p>The 14-day trial is recorded locally. Google Play handles payments for the permanent full-version unlock. Alpha Notes and its verification service do not receive payment-card details. When live purchases are enabled, the app will send the Google Play purchase token and a random installation identifier over HTTPS to the publisher&#39;s Google Cloud Run verification service. The service is designed to check and acknowledge the purchase with Google Play. It does not receive your projects, notes or photos. Normal network request metadata can be processed by Google Cloud. Purchase tokens are processed in memory by the verifier; the server does not write them to application logs or a purchase database.</p>
+<p>Signed receipts and purchase tokens are stored privately on your device to support restore and offline field use. Refund or revocation checks happen when connected. Purchase verification is not operating yet. Its Google Cloud request logs, which can include IP addresses, are planned to be kept for 30 days, and this policy will be updated with the hosting region before purchases are enabled. Google may handle other platform/security information under its own policies.</p>
+<h2>Support and feature requests</h2>
+<p>Help and feedback prepares a message to the support address. You can inspect the report, choose whether to include diagnostics, and send it through your selected email service. Nothing is emailed automatically. The publisher receives your email address, message, attachment and anything you write in the description. Your email provider also handles the message.</p>
+<p>Optional diagnostic ZIPs contain app/Android versions, device manufacturer and model, supported CPU types, screen size and pixel ratio, coordinate engine version, and up to 25 recent standard error codes with coordinate-system identifiers. They do not automatically include project files, photos, coordinate values, personal names, purchase tokens, accounts, hardware or advertising identifiers, other installed apps, or raw system logs and exceptions. Inspect your own description before sending. Up to five drafted ZIPs are kept privately by the app; saved or emailed copies are controlled by you and the service you choose. The publisher deletes support emails and diagnostic attachments within 90 days after a request is closed. While a request is open, they are kept to investigate and respond. This is the publisher&#39;s mailbox-handling practice; the app does not remotely delete email messages or copies held by your own email service.</p>
+<h2>Review reminders</h2>
+<p>Reminder dates and your confirmation that you have reviewed the app are stored locally. The first reminder waits at least seven days and three distinct use dates. Dismissal postpones it for 30 days. Confirming a completed review stops reminders on that installation. Google Play does not tell Alpha Notes whether a review was actually submitted. No satisfaction response or review rating is sent to the publisher by this feature.</p>
+<h2>Deleting data</h2>
+<p>Delete app-managed projects and files inside Alpha Notes. The editable example project is protected from project deletion. Android Clear storage removes private app data, including example edits and local preferences. Uninstalling removes private storage. Downloads, exports, backups and shared copies may remain and must be removed separately. Android automatic backup and device transfer are disabled; explicit project backups are available. Preserve wanted work before resetting a device.</p>
+<h2>Privacy requests and changes</h2>
+<p>Contact <a href="mailto:andrewfoss01@gmail.com">andrewfoss01@gmail.com</a> for privacy questions or to request deletion of support information held by the publisher. Google, MET Norway and your selected sharing/email services handle their own service data under their policies. Future policy changes will be posted at the public privacy-policy page with an updated effective date.</p>
+</main>
+</body>
+</html>
